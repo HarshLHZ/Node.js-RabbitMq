@@ -1,0 +1,26 @@
+{
+  "name": "node.js-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "node publish.js",
+    "subscriber": "node subscriber.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshLHZ/Node.js-RabbitMq.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarshLHZ/Node.js-RabbitMq/issues"
+  },
+  "homepage": "https://github.com/HarshLHZ/Node.js-RabbitMq#readme",
+  "dependencies": {
+    "amqplib": "^0.9.1",
+    "nodemon": "^2.0.16"
+  }
+}
